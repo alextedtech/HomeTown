@@ -1,0 +1,10 @@
+body, *{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.hero{
+    background-image: url("/images/hawthorne.jpg");
+    height: 400px;
+}
