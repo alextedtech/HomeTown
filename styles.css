@@ -33,6 +33,18 @@ body, *{
 
 }
 
+#activity-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#activity{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
 .img-activities{
     border-radius: 50%;
     width: 150px;
