@@ -21,28 +21,36 @@ body, *{
 
 #hero-heading{
     margin-bottom: 20px;
-    background-color:#1D3557;
+    background-color:#003459;
     padding: 10px;
     border-radius: 20px;
 }
 
 #hero-catch{
-    background-color: #457B9D;
+    background-color: #3a6ea5;
     padding:10px;
+    margin-left:10px;
+    margin-right:10px;
     border-radius: 10px;
 }
 
 #activity-section{
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #c0c0c0;
+    padding-bottom: 30px;
 }
 
 #activity{
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    width: 100%;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1000px;
+
 }
 
 .img-activities{
@@ -51,7 +59,8 @@ body, *{
     height: 150px;
 }
 .activity-item{
-    max-width: 250px;
+    max-width: 320px;
+    margin:10px auto;
 }
 .activity-margin{
     margin-top:20px;
@@ -59,11 +68,4 @@ body, *{
 
 h2{
     margin: 40px auto;
-}
-
-@media (max-width:320px) {
-   #acitivty{
-    display:flex;
-    flex-direction: column;
-   } 
 }
