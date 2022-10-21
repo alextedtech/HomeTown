@@ -5,6 +5,7 @@ body, *{
 }
 
 
+
 .hero{
     background-image: url("/images/hawthorne.jpg");
     height: 400px;
@@ -29,8 +30,6 @@ body, *{
     background-color: #457B9D;
     padding:10px;
     border-radius: 10px;
-
-
 }
 
 #activity-section{
@@ -42,11 +41,29 @@ body, *{
 #activity{
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .img-activities{
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+.activity-item{
+    max-width: 250px;
+}
+.activity-margin{
+    margin-top:20px;
+}
+
+h2{
+    margin: 40px auto;
+}
+
+@media (max-width:320px) {
+   #acitivty{
+    display:flex;
+    flex-direction: column;
+   } 
 }
