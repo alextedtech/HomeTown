@@ -57,9 +57,13 @@ body, *{
 #guide-img{
     width: 150px;
     border-radius: 5px;
+    margin: auto 10px;
+
 }
 
-
+#guide-subsection{
+    width: 250px;
+}
 .img-activities{
     border-radius: 50%;
     width: 150px;
@@ -76,11 +80,13 @@ body, *{
     width: 600px;
     text-align: center;
     display:flex;
-    margin: auto;
+    margin: 40px auto;
     padding: 40px;
     align-items: center;
     justify-content:  space-evenly;
-    
+    background-color: goldenrod;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 
