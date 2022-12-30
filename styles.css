@@ -63,6 +63,9 @@ body, *{
 
 #guide-subsection{
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .img-activities{
     border-radius: 50%;
